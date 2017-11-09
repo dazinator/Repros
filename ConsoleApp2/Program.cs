@@ -7,10 +7,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            var collection = new ServiceCollection();         
+            var collection = new ServiceCollection();
 
             var startup = new Startup();
-            var serviceProvider = startup.Build(collection);        
+            var serviceProvider = startup.Build(collection, services => services.BuildServiceProvider());
 
         }
     }
