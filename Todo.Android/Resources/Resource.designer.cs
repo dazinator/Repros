@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("App1.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("App2.Droid.Resource", IsApplication=true)]
 
-namespace App1.Droid
+namespace App2.Droid
 {
 	
 	
@@ -26,11 +26,8 @@ namespace App1.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Gluon.Client.UserAccount.Android.Resource.Drawable.Icon = global::App1.Droid.Resource.Drawable.Icon;
-			global::Gluon.Client.UserAccount.Android.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
-			global::Gluon.Client.UserAccount.Android.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
-			global::MonoDroid.ViewLifecycleManager.Resource.Drawable.Icon = global::App1.Droid.Resource.Drawable.Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App1.Droid.Resource.Attribute.actionBarSize;
+			global::MonoDroid.ViewLifecycleManager.Resource.Drawable.Icon = global::App2.Droid.Resource.Drawable.Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App2.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
@@ -3638,12 +3635,6 @@ namespace App1.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f09003f
-			public const int ApplicationName = 2131296319;
-			
-			// aapt resource value: 0x7f09003e
-			public const int Hello = 2131296318;
-			
 			// aapt resource value: 0x7f090015
 			public const int abc_action_bar_home_description = 2131296277;
 			
@@ -3737,8 +3728,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f090027
 			public const int abc_toolbar_collapse_description = 2131296295;
 			
-			// aapt resource value: 0x7f090041
-			public const int app_name = 2131296321;
+			// aapt resource value: 0x7f09003f
+			public const int app_name = 2131296319;
 			
 			// aapt resource value: 0x7f090036
 			public const int appbar_scrolling_view_behavior = 2131296310;
@@ -3749,11 +3740,11 @@ namespace App1.Droid
 			// aapt resource value: 0x7f090038
 			public const int character_counter_pattern = 2131296312;
 			
-			// aapt resource value: 0x7f090040
-			public const int hello = 2131296320;
+			// aapt resource value: 0x7f09003e
+			public const int hello = 2131296318;
 			
-			// aapt resource value: 0x7f090043
-			public const int login_label = 2131296323;
+			// aapt resource value: 0x7f090041
+			public const int login_label = 2131296321;
 			
 			// aapt resource value: 0x7f090000
 			public const int mr_button_content_description = 2131296256;
@@ -3836,8 +3827,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f090028
 			public const int search_menu_title = 2131296296;
 			
-			// aapt resource value: 0x7f090042
-			public const int signup_title = 2131296322;
+			// aapt resource value: 0x7f090040
+			public const int signup_title = 2131296320;
 			
 			// aapt resource value: 0x7f090029
 			public const int status_bar_notification_info_overflow = 2131296297;
