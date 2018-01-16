@@ -2208,26 +2208,26 @@ namespace App1.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+			// aapt resource value: 0x7f020111
+			public const int avd_hide_password_1 = 2130837777;
+			
 			// aapt resource value: 0x7f020112
-			public const int avd_hide_password_1 = 2130837778;
+			public const int avd_hide_password_2 = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int avd_hide_password_2 = 2130837779;
-			
-			// aapt resource value: 0x7f020114
-			public const int avd_hide_password_3 = 2130837780;
+			public const int avd_hide_password_3 = 2130837779;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
+			// aapt resource value: 0x7f020114
+			public const int avd_show_password_1 = 2130837780;
+			
 			// aapt resource value: 0x7f020115
-			public const int avd_show_password_1 = 2130837781;
+			public const int avd_show_password_2 = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int avd_show_password_2 = 2130837782;
-			
-			// aapt resource value: 0x7f020117
-			public const int avd_show_password_3 = 2130837783;
+			public const int avd_show_password_3 = 2130837782;
 			
 			// aapt resource value: 0x7f020055
 			public const int check = 2130837589;
@@ -2778,11 +2778,11 @@ namespace App1.Droid
 			// aapt resource value: 0x7f02010b
 			public const int notification_icon_background = 2130837771;
 			
-			// aapt resource value: 0x7f020110
-			public const int notification_template_icon_bg = 2130837776;
+			// aapt resource value: 0x7f02010f
+			public const int notification_template_icon_bg = 2130837775;
 			
-			// aapt resource value: 0x7f020111
-			public const int notification_template_icon_low_bg = 2130837777;
+			// aapt resource value: 0x7f020110
+			public const int notification_template_icon_low_bg = 2130837776;
 			
 			// aapt resource value: 0x7f02010c
 			public const int notification_tile_bg = 2130837772;
@@ -2792,9 +2792,6 @@ namespace App1.Droid
 			
 			// aapt resource value: 0x7f02010e
 			public const int plus = 2130837774;
-			
-			// aapt resource value: 0x7f02010f
-			public const int Title = 2130837775;
 			
 			static Drawable()
 			{
@@ -3755,11 +3752,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f090040
 			public const int hello = 2131296320;
 			
-			// aapt resource value: 0x7f090042
-			public const int label = 2131296322;
-			
-			// aapt resource value: 0x7f090044
-			public const int login_label = 2131296324;
+			// aapt resource value: 0x7f090043
+			public const int login_label = 2131296323;
 			
 			// aapt resource value: 0x7f090000
 			public const int mr_button_content_description = 2131296256;
@@ -3842,8 +3836,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f090028
 			public const int search_menu_title = 2131296296;
 			
-			// aapt resource value: 0x7f090043
-			public const int signup_title = 2131296323;
+			// aapt resource value: 0x7f090042
+			public const int signup_title = 2131296322;
 			
 			// aapt resource value: 0x7f090029
 			public const int status_bar_notification_info_overflow = 2131296297;
