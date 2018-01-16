@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>   
+    <RootNamespace>Todo</RootNamespace>
+    <Copyright></Copyright>
+    <PackageId>QuickTodo</PackageId>
+    <Company />
+    <Product />
+    <Description></Description>
+    <Authors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.91635" />
+    <PackageReference Include="Xamarin.Standard.Hosting.Abstractions" Version="1.2.0-unstable0010" />
+  
+    <!--<ProjectReference Include="..\Gluon.Client.Jwt.Android\Gluon.Client.Jwt.Android.csproj" />
+    <ProjectReference Include="..\Gluon.Client.Jwt\Gluon.Client.Jwt.csproj" />
+    <ProjectReference Include="..\Gluon.Client.UserAccount\Gluon.Client.UserAccount.csproj" />-->
+    
+  </ItemGroup>
+
+  <ItemGroup>
+   
+
+    <!--<Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />-->
+    <!--<EmbeddedResource Include="**\*.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\IServersProvider.cs" />
+    <Compile Remove="Services\ServersProvider.cs" />
+    <Compile Remove="Views\AccountSelectPageCS.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AccountSelectPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <!--<Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>-->
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Compile Update="Views\AccountSelectPage.xaml.cs">
+      <DependentUpon>AccountSelectPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>-->
+  
+</Project>
